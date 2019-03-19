@@ -8,5 +8,6 @@ puts "----------"
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
 @store3 = Store.find_by(id: 3)
-@store3.name = "East Hastings"
-puts "hitting here yo #{@store3.name}"
+
+
+puts "hitting here yo #{Store.count}"
